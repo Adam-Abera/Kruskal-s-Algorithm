@@ -30,8 +30,8 @@ public class WeightedGraph {
         for(int i = 0; i<n; i++)
         {
             vertices[i] = i;
-            edges = new ArrayList<>();
         }
+        edges = new ArrayList<>();
     }
     public WeightedGraph()
     {
@@ -39,8 +39,8 @@ public class WeightedGraph {
         for(int i = 0; i<10; i++)
         {
             vertices[i] = i;
-            edges = new ArrayList<>();
         }
+        edges = new ArrayList<>();
     }
     public int degree(int n)
     {
